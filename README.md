@@ -1,6 +1,6 @@
-# Minimalistic DHT11 Display on Raspberry Pi
+# Minimalistic Environment Monitoring on Raspberry Pi
 
-Easily show your DHT11 Temperature and Humidity data on a webpage hosted on your Pi.
+Show Temperature and Humidity data read from DHT11 on a webpage hosted on your Pi.
 
 
 ## Dependencies
@@ -9,7 +9,7 @@ Easily show your DHT11 Temperature and Humidity data on a webpage hosted on your
 - Adafruit DHT11 Library
 
 ## Important!
-Change the `pin` variable to your GPIO-Pin (see http://robintemme.de/Pi.html for reference).
+Change the `pin` variable to your GPIO-Pin.
 
 The `index.html` file needs to be in a `templates`-subdirectory, otherwise Flask won't find it!
 
